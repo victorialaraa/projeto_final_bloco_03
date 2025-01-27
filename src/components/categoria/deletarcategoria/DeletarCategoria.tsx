@@ -4,6 +4,7 @@ import Categoria from "../../../models/Categoria"
 import { buscar, deletar } from "../../../services/Service"
 import { RotatingLines } from "react-loader-spinner"
 
+
 function DeletarCategoria() {
 
     const navigate = useNavigate()
@@ -36,7 +37,7 @@ function DeletarCategoria() {
     }
 
     function retornar() {
-        navigate("/categoria")
+        navigate("/categorias")
     }
     
     return (

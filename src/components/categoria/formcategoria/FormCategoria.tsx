@@ -31,7 +31,7 @@ function FormCategoria() {
     }
 
     function retornar() {
-        navigate("/categoria")
+        navigate("/categorias")
     }
 
     async function gerarNovaCategoria(e: ChangeEvent<HTMLFormElement>) {
