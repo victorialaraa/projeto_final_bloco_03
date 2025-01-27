@@ -47,7 +47,7 @@ function DeletarCategoria() {
                 Você tem certeza de que deseja apagar a categoria?</p>
             <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
                 <header 
-                    className='py-2 px-6 bg-indigo-600 text-white font-bold text-2xl'>
+                    className='py-2 px-6 bg-emerald-500 text-white font-bold text-2xl'>
                     Categoria
                 </header>
                 <p className='p-8 text-3xl bg-slate-200 h-full'>{categoria.descricao}</p>
@@ -58,8 +58,8 @@ function DeletarCategoria() {
                         Não
                     </button>
                     <button 
-                        className='w-full text-slate-100 bg-indigo-400 
-                                   hover:bg-indigo-600 flex items-center justify-center'
+                        className='w-full text-slate-100 bg-gray-600 indigo-400
+                                   hover:bg-gray-800 flex items-center justify-center'
                                    onClick={deletarcategoria}>
                         {isLoading ?
                             <RotatingLines

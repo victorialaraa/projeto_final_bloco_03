@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <>
             <div className='w-full flex justify-center py-4
-            			   bg-indigo-900 text-white'>
+            			   bg-sky-500 text-white'>
 
                 <div className="container flex justify-between px-2 font-semibold text-2xl">
                     <Link to='/home' className='hover:underline'>Farmacia</Link>
